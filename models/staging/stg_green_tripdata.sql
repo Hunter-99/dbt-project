@@ -3,4 +3,4 @@
 
 select 
     *
-from {{ source('staging', 'green_tripdata_external') }}
+from {{ source('staging', 'green_tripdata') }}
