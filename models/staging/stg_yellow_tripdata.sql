@@ -42,8 +42,8 @@ from tripdata
 where rn = 1
 
 -- dbt run --select stg_yellow_tripdata --var 'is_test_run: false'
-{% if var('is_test_run', default=true) %}
+-- {% if var('is_test_run', default=true) %}
 
-  limit 100
+--   limit 100
 
-{% endif %}
+-- {% endif %}
